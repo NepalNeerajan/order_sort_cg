@@ -1,0 +1,345 @@
+#map fee64 -> DSSD
+map_dssd  0  -1
+map_dssd  1  3
+map_dssd  2  2
+map_dssd  3  3
+map_dssd  4  2
+map_dssd  5  -1
+map_dssd  6  1
+map_dssd  7  2
+map_dssd  8  3
+map_dssd  9  -1
+map_dssd  10  1
+map_dssd  11  1
+map_dssd  12  -1
+map_dssd  13  3
+map_dssd  14  2
+map_dssd  15  -1
+map_dssd  16  1
+map_dssd  17  -1
+map_dssd  18  -1
+map_dssd  19  -1
+map_dssd  20  -1
+map_dssd  21  -1
+map_dssd  22  -1
+map_dssd  23  -1
+map_dssd  24  -1
+map_dssd  25  -1
+map_dssd  26  -1
+map_dssd  27  -1
+map_dssd  28  -1
+map_dssd  29  -1
+map_dssd  30  0
+map_dssd  31  -1
+map_dssd  32  -1
+
+#map fee64 -> side (n:0 p:1)
+map_side  0  -1
+map_side  1  1
+map_side  2  1
+map_side  3  0
+map_side  4  0
+map_side  5  -1
+map_side  6  1
+map_side  7  0
+map_side  8  0
+map_side  9  -1
+map_side  10  1
+map_side  11  0
+map_side  12  -1
+map_side  13  1
+map_side  14  1
+map_side  15  -1
+map_side  16  0
+map_side  17  -1
+map_side  18  -1
+map_side  19  -1
+map_side  20  -1
+map_side  21  -1
+map_side  22  -1
+map_side  23  -1
+map_side  24  -1
+map_side  25  -1
+map_side  26  -1
+map_side  27  -1
+map_side  28  -1
+map_side  29  -1
+map_side  30  0
+map_side  31  -1
+map_side  32  -1
+
+#map strip: 1: left/down side, 2: right/top side (from beam view)
+map_strip  0  -1
+map_strip  1  2
+map_strip  2  2
+map_strip  3  1
+map_strip  4  1
+map_strip  5  -1
+map_strip  6  1
+map_strip  7  2
+map_strip  8  2
+map_strip  9  -1
+map_strip  10  2
+map_strip  11  1
+map_strip  12  -1
+map_strip  13  1
+map_strip  14  1
+map_strip  15  -1
+map_strip  16  2
+map_strip  17  -1
+map_strip  18  -1
+map_strip  19  -1
+map_strip  20  -1
+map_strip  21  -1
+map_strip  22  -1
+map_strip  23  -1
+map_strip  24  -1
+map_strip  25  -1
+map_strip  26  -1
+map_strip  27  -1
+map_strip  28  -1
+map_strip  29  -1
+map_strip  30  0
+map_strip  31  -1
+map_strip  32  -1
+
+#adc polarity: -1 for p-side, +1 for n-side (polarity of signal inverted by pre-amp)
+adc_polarity  0  0
+adc_polarity  1  -1
+adc_polarity  2  -1
+adc_polarity  3  1
+adc_polarity  4  1
+adc_polarity  5  0
+adc_polarity  6  -1
+adc_polarity  7  1
+adc_polarity  8  1
+adc_polarity  9  0
+adc_polarity  10  -1
+adc_polarity  11  1
+adc_polarity  12  0
+adc_polarity  13  -1
+adc_polarity  14  -1
+adc_polarity  15  0
+adc_polarity  16  1
+adc_polarity  17  0
+adc_polarity  18  0
+adc_polarity  19  0
+adc_polarity  20  0
+adc_polarity  21  0
+adc_polarity  22  0
+adc_polarity  23  0
+adc_polarity  24  0
+adc_polarity  25  0
+adc_polarity  26  0
+adc_polarity  27  0
+adc_polarity  28  0
+adc_polarity  29  0
+adc_polarity  30  1
+adc_polarity  31  0
+adc_polarity  32  0
+
+b_ch_enabled  0  1  0
+b_ch_enabled  0  55  0
+b_ch_enabled  1  1  0
+b_ch_enabled  1  55  0
+b_ch_enabled  2  1  0
+b_ch_enabled  2  55  0
+b_ch_enabled  3  1  0
+b_ch_enabled  3  55  0
+b_ch_enabled  4  1  0
+b_ch_enabled  4  55  0
+b_ch_enabled  5  1  0
+b_ch_enabled  5  55  0
+b_ch_enabled  6  1  0
+b_ch_enabled  6  55  0
+b_ch_enabled  7  1  0
+b_ch_enabled  7  55  0
+b_ch_enabled  8  1  0
+b_ch_enabled  8  55  0
+b_ch_enabled  9  1  0
+b_ch_enabled  9  55  0
+b_ch_enabled  10  1  0
+b_ch_enabled  10  55  0
+b_ch_enabled  11  1  0
+b_ch_enabled  11  55  0
+b_ch_enabled  12  1  0
+b_ch_enabled  12  55  0
+b_ch_enabled  13  1  0
+b_ch_enabled  13  55  0
+b_ch_enabled  14  1  0
+b_ch_enabled  14  55  0
+b_ch_enabled  15  1  0
+b_ch_enabled  15  55  0
+b_ch_enabled  16  1  0
+b_ch_enabled  16  55  0
+b_ch_enabled  17  1  0
+b_ch_enabled  17  55  0
+b_ch_enabled  18  1  0
+b_ch_enabled  18  55  0
+b_ch_enabled  19  1  0
+b_ch_enabled  19  55  0
+b_ch_enabled  20  1  0
+b_ch_enabled  20  55  0
+b_ch_enabled  21  1  0
+b_ch_enabled  21  55  0
+b_ch_enabled  22  1  0
+b_ch_enabled  22  55  0
+b_ch_enabled  23  1  0
+b_ch_enabled  23  55  0
+b_ch_enabled  24  1  0
+b_ch_enabled  24  55  0
+b_ch_enabled  25  1  0
+b_ch_enabled  25  55  0
+b_ch_enabled  26  1  0
+b_ch_enabled  26  55  0
+b_ch_enabled  27  1  0
+b_ch_enabled  27  55  0
+b_ch_enabled  28  1  0
+b_ch_enabled  28  55  0
+b_ch_enabled  29  1  0
+b_ch_enabled  29  55  0
+b_ch_enabled  30  1  0
+b_ch_enabled  30  55  0
+b_ch_enabled  31  1  0
+b_ch_enabled  31  55  0
+b_ch_enabled  32  1  0
+b_ch_enabled  32  55  0
+b_ch_enabled  4  58  0
+b_ch_enabled  4  62  0
+b_ch_enabled  7  58  0
+b_ch_enabled  7  62  0
+#nnaida11: disable from pulser walkthrough
+b_ch_enabled  11  8  0
+b_ch_enabled  11  16  0
+b_ch_enabled  11  26  0
+b_ch_enabled  11  39  0
+b_ch_enabled  11  40  0
+#nnaida16: none disabled from pulser walkthrough
+
+
+#offset NNAIDA11 (R48)
+adc_offset  11  0  39.2871  3.99852
+adc_offset  11  2  160.824  2.29869
+adc_offset  11  3  187.6  2.64199
+adc_offset  11  4  -163.59  3.21039
+adc_offset  11  5  15.5079  1.86732
+adc_offset  11  6  214.751  2.01384
+adc_offset  11  7  69.7803  2.2774
+adc_offset  11  9  93.357  1.72752
+adc_offset  11  10  83.5029  1.83488
+adc_offset  11  11  252.248  1.94969
+adc_offset  11  12  -84.3302  1.50229
+adc_offset  11  13  295.967  1.61215
+adc_offset  11  14  289.621  1.66112
+adc_offset  11  15  95.7555  1.53202
+adc_offset  11  17  192.582  1.56472
+adc_offset  11  18  77.278  1.56276
+adc_offset  11  19  -124.798  1.4426
+adc_offset  11  20  262.138  1.4284
+adc_offset  11  21  59.3403  1.46729
+adc_offset  11  22  256.769  1.35975
+adc_offset  11  23  456.205  1.42194
+adc_offset  11  24  -20.9156  1.51987
+adc_offset  11  25  98.946  1.4626
+adc_offset  11  27  262.168  1.46063
+adc_offset  11  28  14.577  1.41765
+adc_offset  11  29  -73.3782  1.44557
+adc_offset  11  30  868.333  1.47644
+adc_offset  11  31  206.431  1.48145
+adc_offset  11  32  125.678  1.47818
+adc_offset  11  33  900.036  1.65707
+adc_offset  11  34  -139.919  1.41951
+adc_offset  11  35  -32.5019  1.42146
+adc_offset  11  36  190.574  1.35879
+adc_offset  11  37  -20.1465  1.40818
+adc_offset  11  38  -198.93  1.42997
+adc_offset  11  41  96.3255  1.40597
+adc_offset  11  42  130.996  1.39858
+adc_offset  11  43  -2.42848  1.40796
+adc_offset  11  44  228.16  1.42378
+adc_offset  11  45  28.4819  1.46606
+adc_offset  11  46  275.578  1.44375
+adc_offset  11  47  212.591  1.45604
+adc_offset  11  48  525.686  1.42097
+adc_offset  11  49  6.33333  1.40201
+adc_offset  11  50  175.963  1.38634
+adc_offset  11  51  167.712  1.36949
+adc_offset  11  52  49.6871  1.42255
+adc_offset  11  53  -73.81  1.46673
+adc_offset  11  54  24.0682  1.59288
+adc_offset  11  56  88.0771  1.43644
+adc_offset  11  57  381.538  1.55944
+adc_offset  11  58  101.438  2.24232
+adc_offset  11  59  184.303  1.43942
+adc_offset  11  60  202.136  1.52539
+adc_offset  11  61  267.973  2.95143
+adc_offset  11  62  248.272  1.45409
+adc_offset  11  63  103.152  1.51643
+
+
+#offset NNAIDA16 (R48)
+adc_offset  16  0  464.639  1.66717
+adc_offset  16  1  636.315  5.04545
+adc_offset  16  2  324.931  0.964405
+adc_offset  16  3  -106.486  1.07297
+adc_offset  16  4  -14.9461  1.27881
+adc_offset  16  5  375.783  0.83181
+adc_offset  16  6  88.4148  0.868455
+adc_offset  16  7  19.4917  0.938383
+adc_offset  16  8  212.385  0.764231
+adc_offset  16  9  367.772  0.805174
+adc_offset  16  10  309.384  0.846475
+adc_offset  16  11  346.126  0.855843
+adc_offset  16  12  285.977  0.753018
+adc_offset  16  13  205.329  0.810075
+adc_offset  16  14  42.847  0.83194
+adc_offset  16  15  99.9838  0.76474
+adc_offset  16  16  207.139  0.787216
+adc_offset  16  17  -140.911  0.797605
+adc_offset  16  18  -17.3504  0.817271
+adc_offset  16  19  146.981  0.7455
+adc_offset  16  20  12.966  0.760733
+adc_offset  16  21  -63.9645  0.781258
+adc_offset  16  22  203.916  0.748566
+adc_offset  16  23  9.52278  0.781734
+adc_offset  16  24  48.8642  0.783619
+adc_offset  16  25  324.901  0.809711
+adc_offset  16  26  348.279  0.737522
+adc_offset  16  27  273.425  0.791882
+adc_offset  16  28  -18.9954  0.788718
+adc_offset  16  29  326.684  0.750202
+adc_offset  16  30  332.74  0.773872
+adc_offset  16  31  283.293  0.802225
+adc_offset  16  32  63.5218  0.838568
+adc_offset  16  33  147.39  0.757206
+adc_offset  16  34  127.89  0.781129
+adc_offset  16  35  204.767  0.791006
+adc_offset  16  36  184.939  0.702529
+adc_offset  16  37  127.324  0.761284
+adc_offset  16  38  366.138  0.785888
+adc_offset  16  39  116.054  0.793935
+adc_offset  16  40  7.61199  0.729034
+adc_offset  16  41  86.3718  0.753391
+adc_offset  16  42  178.278  0.785334
+adc_offset  16  43  205.627  0.727825
+adc_offset  16  44  199.359  0.743883
+adc_offset  16  45  228.821  0.77164
+adc_offset  16  46  244.184  0.795366
+adc_offset  16  47  316.922  0.749143
+adc_offset  16  48  161.472  0.79002
+adc_offset  16  49  321.017  0.790342
+adc_offset  16  50  113.182  0.740152
+adc_offset  16  51  24.6905  0.760158
+adc_offset  16  52  313.051  0.766027
+adc_offset  16  53  511.002  0.728535
+adc_offset  16  54  -95.9628  0.76743
+adc_offset  16  55  601.542  4.76295
+adc_offset  16  56  44.2134  0.7809
+adc_offset  16  57  237.985  0.804632
+adc_offset  16  58  540.03  1.03588
+adc_offset  16  59  333.381  0.7722
+adc_offset  16  60  -4.11452  0.782678
+adc_offset  16  61  -96.0475  1.17424
+adc_offset  16  62  8.35694  0.79809
+adc_offset  16  63  44.6713  0.843547
+
