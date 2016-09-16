@@ -29,10 +29,12 @@ CFLAGS 		+= $(ROOTCFLAGS)
 LDFLAGS 	+= $(ROOTLDFLAGS) $(ROOTLIBS)
 
 #INCLUDES=  -I/MIDAS/DataPackage/DataXferLib/V4_TCP -I/MIDAS/DataPackage/DataSpyLib
-INCLUDES=  -I/Disk/ds-sopa-group/np/RIKEN/AIDAsort/DataXferLib/V4_TCP -I/scratch/cgriffin/DataSpyLib
+#INCLUDES=  -I/Disk/ds-sopa-group/np/RIKEN/AIDAsort/DataXferLib/V4_TCP -I/scratch/cgriffin/DataSpyLib
+INCLUDES=  -I/home/nepal1n/Desktop/order_sort_cg/files/DataXferLib/V4_TCP -I/home/nepal1n/Desktop/order_sort_cg/files/DataSpyLib
 #INCLUDES=  -I/Disk/ds-sopa-group/np/RIKEN/AIDAsort/DataXferLib/V4_TCP -I/Disk/ds-sopa-group/np/RIKEN/AIDAsort/DataSpyLib
 #INCLUDES=  -I../../DataSpyLib/Linux64
-LDLIBS=   -L/usr/ucblib -lrt -lpthread -L/scratch/cgriffin/MIDAS/Linux/lib64 -lxfer -ldataspy
+#LDLIBS=   -L/usr/ucblib -lrt -lpthread -L/scratch/cgriffin/MIDAS/Linux/lib64 -lxfer -ldataspy
+LDLIBS= -L/home/nepal1n/Desktop/order_sort_cg/files/MIDAS/Linux/lib64 -lxfer -ldataspy
 #LDLIBS=   -L/usr/ucblib -lrt -lpthread -L/Disk/ds-sopa-group/np/RIKEN/AIDAsort/MIDAS/Linux/lib64 -lxfer -ldataspy
 #LDLIBS=   -L/usr/ucblib -lrt -lpthread -L/MIDAS/Linux/lib64  -ldataspy
 
