@@ -1,0 +1,41 @@
+ On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Analysis.o
+#	modified:   Calibrator.o
+#	modified:   DataSource.o
+#	modified:   Makefile
+#	modified:   Unpacker.o
+#	deleted:    files/DataSpyLib/Linux64/Makefile
+#	deleted:    files/DataSpyLib/Linux64/dataspy.o
+#	deleted:    files/DataSpyLib/Linux64/libdataspy.so
+#	deleted:    files/DataSpyLib/dataspy.c
+#	deleted:    files/DataSpyLib/dataspy.h
+#	deleted:    files/DataXferLib/V4_TCP/Linux64/Makefile
+#	deleted:    files/DataXferLib/V4_TCP/Linux64/libxfer.so
+#	deleted:    files/DataXferLib/V4_TCP/Linux64/transfer.o
+#	deleted:    files/DataXferLib/V4_TCP/Makefile.Linux64
+#	deleted:    files/DataXferLib/V4_TCP/transfer.c
+#	deleted:    files/DataXferLib/V4_TCP/transfer.h
+#	deleted:    files/MIDAS/Linux/lib64/libdataspy.so
+#	deleted:    files/MIDAS/Linux/lib64/libxfer.so
+#	modified:   include/DataSource.h.gch
+#	modified:   main.cpp
+#	modified:   main.o
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	AIDAsort.v2.exe
+#	aida_sort_R1239_4.root
+#	fillrandom.root
+#	hsimple.root
+#	include/Analysis.h.gch
+#	include/Calibrator.h.gch
+#	include/Unpacker.h.gch
+#	main.cpp~
+#	plot_R1207/
+#	run_time_info_old/
+no changes added to commit (use "git add" and/or "git commit -a")
